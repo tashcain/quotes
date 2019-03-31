@@ -6,7 +6,7 @@ $data=mysqli_query($conn,$query);
 $quotes = mysqli_fetch_all($data,MYSQLI_ASSOC);
 
 ?>
-
+<!-- yha html start -->
 <html>
 <head><title>quotes</title>
 <link rel="stylesheet" href="css/bootstrap.min.css"></head>
